@@ -1727,6 +1727,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="-3.25" y="2.1"/>
 <vertex x="-4.75" y="2.1"/>
 </polygon>
+<polygon width="0.01" layer="29">
+<vertex x="-3.54" y="3"/>
+<vertex x="-3.15" y="2.61"/>
+<vertex x="-3.15" y="2"/>
+<vertex x="-4.85" y="2"/>
+<vertex x="-4.85" y="3"/>
+</polygon>
 </package>
 </packages>
 </library>
@@ -4689,15 +4696,15 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="PROD_ID" value="CONN-13694" x="5.08" y="12.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="1.778" y="14.351" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
-<element name="R1" library="SparkFun-Resistors" package="0603" value="4.7k" x="22.352" y="8.128" smashed="yes">
+<element name="R1" library="SparkFun-Resistors" package="0603" value="2.2k" x="22.352" y="8.128" smashed="yes">
 <attribute name="NAME" x="22.352" y="8.89" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-07857" x="22.352" y="8.128" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="22.352" y="7.366" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<attribute name="PROD_ID" value="RES-08272" x="22.352" y="8.128" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="2.2k" x="22.352" y="7.366" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="R2" library="SparkFun-Resistors" package="0603" value="4.7k" x="22.352" y="6.35" smashed="yes">
+<element name="R2" library="SparkFun-Resistors" package="0603" value="2.2k" x="22.352" y="6.35" smashed="yes">
 <attribute name="NAME" x="22.352" y="7.112" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-07857" x="22.352" y="6.35" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="22.352" y="5.588" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<attribute name="PROD_ID" value="RES-08272" x="22.352" y="6.35" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="2.2k" x="22.352" y="5.588" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="J3" library="SparkFun-Connectors" package="1X04_NO_SILK" value="PTH" x="8.89" y="1.27" smashed="yes">
 <attribute name="NAME" x="7.62" y="2.667" size="0.6096" layer="25" font="vector" ratio="20"/>
@@ -4799,15 +4806,15 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="PROD_ID" value="CONN-13694" x="30.988" y="12.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="27.686" y="14.351" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
-<element name="R4" library="SparkFun-Resistors" package="0603" value="4.7k" x="48.26" y="8.128" smashed="yes">
+<element name="R4" library="SparkFun-Resistors" package="0603" value="2.2k" x="48.26" y="8.128" smashed="yes">
 <attribute name="NAME" x="48.26" y="8.89" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-07857" x="48.26" y="8.128" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="48.26" y="7.366" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<attribute name="PROD_ID" value="RES-08272" x="48.26" y="8.128" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="2.2k" x="48.26" y="7.366" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="R5" library="SparkFun-Resistors" package="0603" value="4.7k" x="48.26" y="6.35" smashed="yes">
+<element name="R5" library="SparkFun-Resistors" package="0603" value="2.2k" x="48.26" y="6.35" smashed="yes">
 <attribute name="NAME" x="48.26" y="7.112" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-07857" x="48.26" y="6.35" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="48.26" y="5.588" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<attribute name="PROD_ID" value="RES-08272" x="48.26" y="6.35" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="2.2k" x="48.26" y="5.588" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="J6" library="SparkFun-Connectors" package="1X04_NO_SILK" value="PTH" x="34.798" y="1.27" smashed="yes">
 <attribute name="NAME" x="33.528" y="2.667" size="0.6096" layer="25" font="vector" ratio="20"/>
@@ -4909,15 +4916,15 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="PROD_ID" value="CONN-13694" x="56.896" y="12.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="53.594" y="14.351" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
-<element name="R7" library="SparkFun-Resistors" package="0603" value="4.7k" x="74.168" y="8.128" smashed="yes">
+<element name="R7" library="SparkFun-Resistors" package="0603" value="2.2k" x="74.168" y="8.128" smashed="yes">
 <attribute name="NAME" x="74.168" y="8.89" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-07857" x="74.168" y="8.128" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="74.168" y="7.366" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<attribute name="PROD_ID" value="RES-08272" x="74.168" y="8.128" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="2.2k" x="74.168" y="7.366" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="R8" library="SparkFun-Resistors" package="0603" value="4.7k" x="74.168" y="6.35" smashed="yes">
+<element name="R8" library="SparkFun-Resistors" package="0603" value="2.2k" x="74.168" y="6.35" smashed="yes">
 <attribute name="NAME" x="74.168" y="7.112" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-07857" x="74.168" y="6.35" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="74.168" y="5.588" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<attribute name="PROD_ID" value="RES-08272" x="74.168" y="6.35" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="2.2k" x="74.168" y="5.588" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="J9" library="SparkFun-Connectors" package="1X04_NO_SILK" value="PTH" x="60.706" y="1.27" smashed="yes">
 <attribute name="NAME" x="59.436" y="2.667" size="0.6096" layer="25" font="vector" ratio="20"/>
@@ -5019,15 +5026,15 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="PROD_ID" value="CONN-13694" x="82.804" y="12.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="79.502" y="14.351" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
-<element name="R10" library="SparkFun-Resistors" package="0603" value="4.7k" x="100.076" y="8.128" smashed="yes">
+<element name="R10" library="SparkFun-Resistors" package="0603" value="2.2k" x="100.076" y="8.128" smashed="yes">
 <attribute name="NAME" x="100.076" y="8.89" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-07857" x="100.076" y="8.128" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="100.076" y="7.366" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<attribute name="PROD_ID" value="RES-08272" x="100.076" y="8.128" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="2.2k" x="100.076" y="7.366" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="R11" library="SparkFun-Resistors" package="0603" value="4.7k" x="100.076" y="6.35" smashed="yes">
+<element name="R11" library="SparkFun-Resistors" package="0603" value="2.2k" x="100.076" y="6.35" smashed="yes">
 <attribute name="NAME" x="100.076" y="7.112" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-07857" x="100.076" y="6.35" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="100.076" y="5.588" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<attribute name="PROD_ID" value="RES-08272" x="100.076" y="6.35" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="2.2k" x="100.076" y="5.588" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="J12" library="SparkFun-Connectors" package="1X04_NO_SILK" value="PTH" x="86.614" y="1.27" smashed="yes">
 <attribute name="NAME" x="85.344" y="2.667" size="0.6096" layer="25" font="vector" ratio="20"/>
@@ -5129,15 +5136,15 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="PROD_ID" value="CONN-13694" x="108.712" y="12.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="105.41" y="14.351" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
-<element name="R13" library="SparkFun-Resistors" package="0603" value="4.7k" x="125.984" y="8.128" smashed="yes">
+<element name="R13" library="SparkFun-Resistors" package="0603" value="2.2k" x="125.984" y="8.128" smashed="yes">
 <attribute name="NAME" x="125.984" y="8.89" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-07857" x="125.984" y="8.128" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="125.984" y="7.366" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<attribute name="PROD_ID" value="RES-08272" x="125.984" y="8.128" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="2.2k" x="125.984" y="7.366" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="R14" library="SparkFun-Resistors" package="0603" value="4.7k" x="125.984" y="6.35" smashed="yes">
+<element name="R14" library="SparkFun-Resistors" package="0603" value="2.2k" x="125.984" y="6.35" smashed="yes">
 <attribute name="NAME" x="125.984" y="7.112" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-07857" x="125.984" y="6.35" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="125.984" y="5.588" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<attribute name="PROD_ID" value="RES-08272" x="125.984" y="6.35" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="2.2k" x="125.984" y="5.588" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="J15" library="SparkFun-Connectors" package="1X04_NO_SILK" value="PTH" x="112.522" y="1.27" smashed="yes">
 <attribute name="NAME" x="111.252" y="2.667" size="0.6096" layer="25" font="vector" ratio="20"/>
@@ -5239,15 +5246,15 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="PROD_ID" value="CONN-13694" x="134.62" y="12.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="131.318" y="14.351" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
-<element name="R16" library="SparkFun-Resistors" package="0603" value="4.7k" x="151.892" y="8.128" smashed="yes">
+<element name="R16" library="SparkFun-Resistors" package="0603" value="2.2k" x="151.892" y="8.128" smashed="yes">
 <attribute name="NAME" x="151.892" y="8.89" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-07857" x="151.892" y="8.128" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="151.892" y="7.366" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<attribute name="PROD_ID" value="RES-08272" x="151.892" y="8.128" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="2.2k" x="151.892" y="7.366" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="R17" library="SparkFun-Resistors" package="0603" value="4.7k" x="151.892" y="6.35" smashed="yes">
+<element name="R17" library="SparkFun-Resistors" package="0603" value="2.2k" x="151.892" y="6.35" smashed="yes">
 <attribute name="NAME" x="151.892" y="7.112" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-07857" x="151.892" y="6.35" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="151.892" y="5.588" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<attribute name="PROD_ID" value="RES-08272" x="151.892" y="6.35" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="2.2k" x="151.892" y="5.588" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="J18" library="SparkFun-Connectors" package="1X04_NO_SILK" value="PTH" x="138.43" y="1.27" smashed="yes">
 <attribute name="NAME" x="137.16" y="2.667" size="0.6096" layer="25" font="vector" ratio="20"/>
@@ -5349,15 +5356,15 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="PROD_ID" value="CONN-13694" x="5.08" y="38.608" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="1.778" y="40.259" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
-<element name="R19" library="SparkFun-Resistors" package="0603" value="4.7k" x="22.352" y="34.036" smashed="yes">
+<element name="R19" library="SparkFun-Resistors" package="0603" value="2.2k" x="22.352" y="34.036" smashed="yes">
 <attribute name="NAME" x="22.352" y="34.798" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-07857" x="22.352" y="34.036" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="22.352" y="33.274" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<attribute name="PROD_ID" value="RES-08272" x="22.352" y="34.036" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="2.2k" x="22.352" y="33.274" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="R20" library="SparkFun-Resistors" package="0603" value="4.7k" x="22.352" y="32.258" smashed="yes">
+<element name="R20" library="SparkFun-Resistors" package="0603" value="2.2k" x="22.352" y="32.258" smashed="yes">
 <attribute name="NAME" x="22.352" y="33.02" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-07857" x="22.352" y="32.258" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="22.352" y="31.496" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<attribute name="PROD_ID" value="RES-08272" x="22.352" y="32.258" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="2.2k" x="22.352" y="31.496" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="J21" library="SparkFun-Connectors" package="1X04_NO_SILK" value="PTH" x="8.89" y="27.178" smashed="yes">
 <attribute name="NAME" x="7.62" y="28.575" size="0.6096" layer="25" font="vector" ratio="20"/>
@@ -5459,15 +5466,15 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="PROD_ID" value="CONN-13694" x="30.988" y="38.608" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="27.686" y="40.259" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
-<element name="R22" library="SparkFun-Resistors" package="0603" value="4.7k" x="48.26" y="34.036" smashed="yes">
+<element name="R22" library="SparkFun-Resistors" package="0603" value="2.2k" x="48.26" y="34.036" smashed="yes">
 <attribute name="NAME" x="48.26" y="34.798" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-07857" x="48.26" y="34.036" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="48.26" y="33.274" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<attribute name="PROD_ID" value="RES-08272" x="48.26" y="34.036" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="2.2k" x="48.26" y="33.274" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="R23" library="SparkFun-Resistors" package="0603" value="4.7k" x="48.26" y="32.258" smashed="yes">
+<element name="R23" library="SparkFun-Resistors" package="0603" value="2.2k" x="48.26" y="32.258" smashed="yes">
 <attribute name="NAME" x="48.26" y="33.02" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-07857" x="48.26" y="32.258" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="48.26" y="31.496" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<attribute name="PROD_ID" value="RES-08272" x="48.26" y="32.258" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="2.2k" x="48.26" y="31.496" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="J24" library="SparkFun-Connectors" package="1X04_NO_SILK" value="PTH" x="34.798" y="27.178" smashed="yes">
 <attribute name="NAME" x="33.528" y="28.575" size="0.6096" layer="25" font="vector" ratio="20"/>
@@ -5569,15 +5576,15 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="PROD_ID" value="CONN-13694" x="56.896" y="38.608" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="53.594" y="40.259" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
-<element name="R25" library="SparkFun-Resistors" package="0603" value="4.7k" x="74.168" y="34.036" smashed="yes">
+<element name="R25" library="SparkFun-Resistors" package="0603" value="2.2k" x="74.168" y="34.036" smashed="yes">
 <attribute name="NAME" x="74.168" y="34.798" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-07857" x="74.168" y="34.036" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="74.168" y="33.274" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<attribute name="PROD_ID" value="RES-08272" x="74.168" y="34.036" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="2.2k" x="74.168" y="33.274" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="R26" library="SparkFun-Resistors" package="0603" value="4.7k" x="74.168" y="32.258" smashed="yes">
+<element name="R26" library="SparkFun-Resistors" package="0603" value="2.2k" x="74.168" y="32.258" smashed="yes">
 <attribute name="NAME" x="74.168" y="33.02" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-07857" x="74.168" y="32.258" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="74.168" y="31.496" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<attribute name="PROD_ID" value="RES-08272" x="74.168" y="32.258" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="2.2k" x="74.168" y="31.496" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="J27" library="SparkFun-Connectors" package="1X04_NO_SILK" value="PTH" x="60.706" y="27.178" smashed="yes">
 <attribute name="NAME" x="59.436" y="28.575" size="0.6096" layer="25" font="vector" ratio="20"/>
@@ -5679,15 +5686,15 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="PROD_ID" value="CONN-13694" x="82.804" y="38.608" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="79.502" y="40.259" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
-<element name="R28" library="SparkFun-Resistors" package="0603" value="4.7k" x="100.076" y="34.036" smashed="yes">
+<element name="R28" library="SparkFun-Resistors" package="0603" value="2.2k" x="100.076" y="34.036" smashed="yes">
 <attribute name="NAME" x="100.076" y="34.798" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-07857" x="100.076" y="34.036" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="100.076" y="33.274" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<attribute name="PROD_ID" value="RES-08272" x="100.076" y="34.036" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="2.2k" x="100.076" y="33.274" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="R29" library="SparkFun-Resistors" package="0603" value="4.7k" x="100.076" y="32.258" smashed="yes">
+<element name="R29" library="SparkFun-Resistors" package="0603" value="2.2k" x="100.076" y="32.258" smashed="yes">
 <attribute name="NAME" x="100.076" y="33.02" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-07857" x="100.076" y="32.258" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="100.076" y="31.496" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<attribute name="PROD_ID" value="RES-08272" x="100.076" y="32.258" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="2.2k" x="100.076" y="31.496" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="J30" library="SparkFun-Connectors" package="1X04_NO_SILK" value="PTH" x="86.614" y="27.178" smashed="yes">
 <attribute name="NAME" x="85.344" y="28.575" size="0.6096" layer="25" font="vector" ratio="20"/>
@@ -5789,15 +5796,15 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="PROD_ID" value="CONN-13694" x="108.712" y="38.608" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="105.41" y="40.259" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
-<element name="R31" library="SparkFun-Resistors" package="0603" value="4.7k" x="125.984" y="34.036" smashed="yes">
+<element name="R31" library="SparkFun-Resistors" package="0603" value="2.2k" x="125.984" y="34.036" smashed="yes">
 <attribute name="NAME" x="125.984" y="34.798" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-07857" x="125.984" y="34.036" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="125.984" y="33.274" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<attribute name="PROD_ID" value="RES-08272" x="125.984" y="34.036" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="2.2k" x="125.984" y="33.274" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="R32" library="SparkFun-Resistors" package="0603" value="4.7k" x="125.984" y="32.258" smashed="yes">
+<element name="R32" library="SparkFun-Resistors" package="0603" value="2.2k" x="125.984" y="32.258" smashed="yes">
 <attribute name="NAME" x="125.984" y="33.02" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-07857" x="125.984" y="32.258" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="125.984" y="31.496" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<attribute name="PROD_ID" value="RES-08272" x="125.984" y="32.258" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="2.2k" x="125.984" y="31.496" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="J33" library="SparkFun-Connectors" package="1X04_NO_SILK" value="PTH" x="112.522" y="27.178" smashed="yes">
 <attribute name="NAME" x="111.252" y="28.575" size="0.6096" layer="25" font="vector" ratio="20"/>
@@ -5899,15 +5906,15 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="PROD_ID" value="CONN-13694" x="134.62" y="38.608" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="131.318" y="40.259" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
-<element name="R34" library="SparkFun-Resistors" package="0603" value="4.7k" x="151.892" y="34.036" smashed="yes">
+<element name="R34" library="SparkFun-Resistors" package="0603" value="2.2k" x="151.892" y="34.036" smashed="yes">
 <attribute name="NAME" x="151.892" y="34.798" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-07857" x="151.892" y="34.036" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="151.892" y="33.274" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<attribute name="PROD_ID" value="RES-08272" x="151.892" y="34.036" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="2.2k" x="151.892" y="33.274" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="R35" library="SparkFun-Resistors" package="0603" value="4.7k" x="151.892" y="32.258" smashed="yes">
+<element name="R35" library="SparkFun-Resistors" package="0603" value="2.2k" x="151.892" y="32.258" smashed="yes">
 <attribute name="NAME" x="151.892" y="33.02" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-07857" x="151.892" y="32.258" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="151.892" y="31.496" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<attribute name="PROD_ID" value="RES-08272" x="151.892" y="32.258" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="2.2k" x="151.892" y="31.496" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="J36" library="SparkFun-Connectors" package="1X04_NO_SILK" value="PTH" x="138.43" y="27.178" smashed="yes">
 <attribute name="NAME" x="137.16" y="28.575" size="0.6096" layer="25" font="vector" ratio="20"/>
@@ -6009,15 +6016,15 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="PROD_ID" value="CONN-13694" x="5.08" y="64.516" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="1.778" y="66.167" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
-<element name="R37" library="SparkFun-Resistors" package="0603" value="4.7k" x="22.352" y="59.944" smashed="yes">
+<element name="R37" library="SparkFun-Resistors" package="0603" value="2.2k" x="22.352" y="59.944" smashed="yes">
 <attribute name="NAME" x="22.352" y="60.706" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-07857" x="22.352" y="59.944" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="22.352" y="59.182" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<attribute name="PROD_ID" value="RES-08272" x="22.352" y="59.944" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="2.2k" x="22.352" y="59.182" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="R38" library="SparkFun-Resistors" package="0603" value="4.7k" x="22.352" y="58.166" smashed="yes">
+<element name="R38" library="SparkFun-Resistors" package="0603" value="2.2k" x="22.352" y="58.166" smashed="yes">
 <attribute name="NAME" x="22.352" y="58.928" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-07857" x="22.352" y="58.166" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="22.352" y="57.404" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<attribute name="PROD_ID" value="RES-08272" x="22.352" y="58.166" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="2.2k" x="22.352" y="57.404" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="J39" library="SparkFun-Connectors" package="1X04_NO_SILK" value="PTH" x="8.89" y="53.086" smashed="yes">
 <attribute name="NAME" x="7.62" y="54.483" size="0.6096" layer="25" font="vector" ratio="20"/>
@@ -6119,15 +6126,15 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="PROD_ID" value="CONN-13694" x="30.988" y="64.516" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="27.686" y="66.167" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
-<element name="R40" library="SparkFun-Resistors" package="0603" value="4.7k" x="48.26" y="59.944" smashed="yes">
+<element name="R40" library="SparkFun-Resistors" package="0603" value="2.2k" x="48.26" y="59.944" smashed="yes">
 <attribute name="NAME" x="48.26" y="60.706" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-07857" x="48.26" y="59.944" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="48.26" y="59.182" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<attribute name="PROD_ID" value="RES-08272" x="48.26" y="59.944" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="2.2k" x="48.26" y="59.182" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="R41" library="SparkFun-Resistors" package="0603" value="4.7k" x="48.26" y="58.166" smashed="yes">
+<element name="R41" library="SparkFun-Resistors" package="0603" value="2.2k" x="48.26" y="58.166" smashed="yes">
 <attribute name="NAME" x="48.26" y="58.928" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-07857" x="48.26" y="58.166" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="48.26" y="57.404" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<attribute name="PROD_ID" value="RES-08272" x="48.26" y="58.166" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="2.2k" x="48.26" y="57.404" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="J42" library="SparkFun-Connectors" package="1X04_NO_SILK" value="PTH" x="34.798" y="53.086" smashed="yes">
 <attribute name="NAME" x="33.528" y="54.483" size="0.6096" layer="25" font="vector" ratio="20"/>
@@ -6229,15 +6236,15 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="PROD_ID" value="CONN-13694" x="56.896" y="64.516" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="53.594" y="66.167" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
-<element name="R43" library="SparkFun-Resistors" package="0603" value="4.7k" x="74.168" y="59.944" smashed="yes">
+<element name="R43" library="SparkFun-Resistors" package="0603" value="2.2k" x="74.168" y="59.944" smashed="yes">
 <attribute name="NAME" x="74.168" y="60.706" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-07857" x="74.168" y="59.944" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="74.168" y="59.182" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<attribute name="PROD_ID" value="RES-08272" x="74.168" y="59.944" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="2.2k" x="74.168" y="59.182" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="R44" library="SparkFun-Resistors" package="0603" value="4.7k" x="74.168" y="58.166" smashed="yes">
+<element name="R44" library="SparkFun-Resistors" package="0603" value="2.2k" x="74.168" y="58.166" smashed="yes">
 <attribute name="NAME" x="74.168" y="58.928" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-07857" x="74.168" y="58.166" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="74.168" y="57.404" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<attribute name="PROD_ID" value="RES-08272" x="74.168" y="58.166" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="2.2k" x="74.168" y="57.404" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="J45" library="SparkFun-Connectors" package="1X04_NO_SILK" value="PTH" x="60.706" y="53.086" smashed="yes">
 <attribute name="NAME" x="59.436" y="54.483" size="0.6096" layer="25" font="vector" ratio="20"/>
@@ -6339,15 +6346,15 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="PROD_ID" value="CONN-13694" x="82.804" y="64.516" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="79.502" y="66.167" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
-<element name="R46" library="SparkFun-Resistors" package="0603" value="4.7k" x="100.076" y="59.944" smashed="yes">
+<element name="R46" library="SparkFun-Resistors" package="0603" value="2.2k" x="100.076" y="59.944" smashed="yes">
 <attribute name="NAME" x="100.076" y="60.706" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-07857" x="100.076" y="59.944" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="100.076" y="59.182" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<attribute name="PROD_ID" value="RES-08272" x="100.076" y="59.944" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="2.2k" x="100.076" y="59.182" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="R47" library="SparkFun-Resistors" package="0603" value="4.7k" x="100.076" y="58.166" smashed="yes">
+<element name="R47" library="SparkFun-Resistors" package="0603" value="2.2k" x="100.076" y="58.166" smashed="yes">
 <attribute name="NAME" x="100.076" y="58.928" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-07857" x="100.076" y="58.166" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="100.076" y="57.404" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<attribute name="PROD_ID" value="RES-08272" x="100.076" y="58.166" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="2.2k" x="100.076" y="57.404" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="J48" library="SparkFun-Connectors" package="1X04_NO_SILK" value="PTH" x="86.614" y="53.086" smashed="yes">
 <attribute name="NAME" x="85.344" y="54.483" size="0.6096" layer="25" font="vector" ratio="20"/>
@@ -6449,15 +6456,15 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="PROD_ID" value="CONN-13694" x="108.712" y="64.516" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="105.41" y="66.167" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
-<element name="R49" library="SparkFun-Resistors" package="0603" value="4.7k" x="125.984" y="59.944" smashed="yes">
+<element name="R49" library="SparkFun-Resistors" package="0603" value="2.2k" x="125.984" y="59.944" smashed="yes">
 <attribute name="NAME" x="125.984" y="60.706" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-07857" x="125.984" y="59.944" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="125.984" y="59.182" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<attribute name="PROD_ID" value="RES-08272" x="125.984" y="59.944" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="2.2k" x="125.984" y="59.182" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="R50" library="SparkFun-Resistors" package="0603" value="4.7k" x="125.984" y="58.166" smashed="yes">
+<element name="R50" library="SparkFun-Resistors" package="0603" value="2.2k" x="125.984" y="58.166" smashed="yes">
 <attribute name="NAME" x="125.984" y="58.928" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-07857" x="125.984" y="58.166" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="125.984" y="57.404" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<attribute name="PROD_ID" value="RES-08272" x="125.984" y="58.166" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="2.2k" x="125.984" y="57.404" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="J51" library="SparkFun-Connectors" package="1X04_NO_SILK" value="PTH" x="112.522" y="53.086" smashed="yes">
 <attribute name="NAME" x="111.252" y="54.483" size="0.6096" layer="25" font="vector" ratio="20"/>
@@ -6559,15 +6566,15 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="PROD_ID" value="CONN-13694" x="134.62" y="64.516" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="131.318" y="66.167" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
-<element name="R52" library="SparkFun-Resistors" package="0603" value="4.7k" x="151.892" y="59.944" smashed="yes">
+<element name="R52" library="SparkFun-Resistors" package="0603" value="2.2k" x="151.892" y="59.944" smashed="yes">
 <attribute name="NAME" x="151.892" y="60.706" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-07857" x="151.892" y="59.944" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="151.892" y="59.182" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<attribute name="PROD_ID" value="RES-08272" x="151.892" y="59.944" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="2.2k" x="151.892" y="59.182" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="R53" library="SparkFun-Resistors" package="0603" value="4.7k" x="151.892" y="58.166" smashed="yes">
+<element name="R53" library="SparkFun-Resistors" package="0603" value="2.2k" x="151.892" y="58.166" smashed="yes">
 <attribute name="NAME" x="151.892" y="58.928" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-07857" x="151.892" y="58.166" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="151.892" y="57.404" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<attribute name="PROD_ID" value="RES-08272" x="151.892" y="58.166" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="2.2k" x="151.892" y="57.404" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="J54" library="SparkFun-Connectors" package="1X04_NO_SILK" value="PTH" x="138.43" y="53.086" smashed="yes">
 <attribute name="NAME" x="137.16" y="54.483" size="0.6096" layer="25" font="vector" ratio="20"/>
@@ -6669,15 +6676,15 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="PROD_ID" value="CONN-13694" x="5.08" y="90.424" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="1.778" y="92.075" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
-<element name="R55" library="SparkFun-Resistors" package="0603" value="4.7k" x="22.352" y="85.852" smashed="yes">
+<element name="R55" library="SparkFun-Resistors" package="0603" value="2.2k" x="22.352" y="85.852" smashed="yes">
 <attribute name="NAME" x="22.352" y="86.614" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-07857" x="22.352" y="85.852" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="22.352" y="85.09" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<attribute name="PROD_ID" value="RES-08272" x="22.352" y="85.852" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="2.2k" x="22.352" y="85.09" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="R56" library="SparkFun-Resistors" package="0603" value="4.7k" x="22.352" y="84.074" smashed="yes">
+<element name="R56" library="SparkFun-Resistors" package="0603" value="2.2k" x="22.352" y="84.074" smashed="yes">
 <attribute name="NAME" x="22.352" y="84.836" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-07857" x="22.352" y="84.074" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="22.352" y="83.312" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<attribute name="PROD_ID" value="RES-08272" x="22.352" y="84.074" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="2.2k" x="22.352" y="83.312" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="J57" library="SparkFun-Connectors" package="1X04_NO_SILK" value="PTH" x="8.89" y="78.994" smashed="yes">
 <attribute name="NAME" x="7.62" y="80.391" size="0.6096" layer="25" font="vector" ratio="20"/>
@@ -6779,15 +6786,15 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="PROD_ID" value="CONN-13694" x="30.988" y="90.424" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="27.686" y="92.075" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
-<element name="R58" library="SparkFun-Resistors" package="0603" value="4.7k" x="48.26" y="85.852" smashed="yes">
+<element name="R58" library="SparkFun-Resistors" package="0603" value="2.2k" x="48.26" y="85.852" smashed="yes">
 <attribute name="NAME" x="48.26" y="86.614" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-07857" x="48.26" y="85.852" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="48.26" y="85.09" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<attribute name="PROD_ID" value="RES-08272" x="48.26" y="85.852" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="2.2k" x="48.26" y="85.09" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="R59" library="SparkFun-Resistors" package="0603" value="4.7k" x="48.26" y="84.074" smashed="yes">
+<element name="R59" library="SparkFun-Resistors" package="0603" value="2.2k" x="48.26" y="84.074" smashed="yes">
 <attribute name="NAME" x="48.26" y="84.836" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-07857" x="48.26" y="84.074" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="48.26" y="83.312" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<attribute name="PROD_ID" value="RES-08272" x="48.26" y="84.074" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="2.2k" x="48.26" y="83.312" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="J60" library="SparkFun-Connectors" package="1X04_NO_SILK" value="PTH" x="34.798" y="78.994" smashed="yes">
 <attribute name="NAME" x="33.528" y="80.391" size="0.6096" layer="25" font="vector" ratio="20"/>
@@ -6889,15 +6896,15 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="PROD_ID" value="CONN-13694" x="56.896" y="90.424" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="53.594" y="92.075" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
-<element name="R61" library="SparkFun-Resistors" package="0603" value="4.7k" x="74.168" y="85.852" smashed="yes">
+<element name="R61" library="SparkFun-Resistors" package="0603" value="2.2k" x="74.168" y="85.852" smashed="yes">
 <attribute name="NAME" x="74.168" y="86.614" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-07857" x="74.168" y="85.852" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="74.168" y="85.09" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<attribute name="PROD_ID" value="RES-08272" x="74.168" y="85.852" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="2.2k" x="74.168" y="85.09" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="R62" library="SparkFun-Resistors" package="0603" value="4.7k" x="74.168" y="84.074" smashed="yes">
+<element name="R62" library="SparkFun-Resistors" package="0603" value="2.2k" x="74.168" y="84.074" smashed="yes">
 <attribute name="NAME" x="74.168" y="84.836" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-07857" x="74.168" y="84.074" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="74.168" y="83.312" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<attribute name="PROD_ID" value="RES-08272" x="74.168" y="84.074" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="2.2k" x="74.168" y="83.312" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="J63" library="SparkFun-Connectors" package="1X04_NO_SILK" value="PTH" x="60.706" y="78.994" smashed="yes">
 <attribute name="NAME" x="59.436" y="80.391" size="0.6096" layer="25" font="vector" ratio="20"/>
@@ -6999,15 +7006,15 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="PROD_ID" value="CONN-13694" x="82.804" y="90.424" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="79.502" y="92.075" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
-<element name="R64" library="SparkFun-Resistors" package="0603" value="4.7k" x="100.076" y="85.852" smashed="yes">
+<element name="R64" library="SparkFun-Resistors" package="0603" value="2.2k" x="100.076" y="85.852" smashed="yes">
 <attribute name="NAME" x="100.076" y="86.614" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-07857" x="100.076" y="85.852" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="100.076" y="85.09" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<attribute name="PROD_ID" value="RES-08272" x="100.076" y="85.852" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="2.2k" x="100.076" y="85.09" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="R65" library="SparkFun-Resistors" package="0603" value="4.7k" x="100.076" y="84.074" smashed="yes">
+<element name="R65" library="SparkFun-Resistors" package="0603" value="2.2k" x="100.076" y="84.074" smashed="yes">
 <attribute name="NAME" x="100.076" y="84.836" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-07857" x="100.076" y="84.074" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="100.076" y="83.312" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<attribute name="PROD_ID" value="RES-08272" x="100.076" y="84.074" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="2.2k" x="100.076" y="83.312" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="J66" library="SparkFun-Connectors" package="1X04_NO_SILK" value="PTH" x="86.614" y="78.994" smashed="yes">
 <attribute name="NAME" x="85.344" y="80.391" size="0.6096" layer="25" font="vector" ratio="20"/>
@@ -7109,15 +7116,15 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="PROD_ID" value="CONN-13694" x="108.712" y="90.424" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="105.41" y="92.075" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
-<element name="R67" library="SparkFun-Resistors" package="0603" value="4.7k" x="125.984" y="85.852" smashed="yes">
+<element name="R67" library="SparkFun-Resistors" package="0603" value="2.2k" x="125.984" y="85.852" smashed="yes">
 <attribute name="NAME" x="125.984" y="86.614" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-07857" x="125.984" y="85.852" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="125.984" y="85.09" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<attribute name="PROD_ID" value="RES-08272" x="125.984" y="85.852" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="2.2k" x="125.984" y="85.09" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="R68" library="SparkFun-Resistors" package="0603" value="4.7k" x="125.984" y="84.074" smashed="yes">
+<element name="R68" library="SparkFun-Resistors" package="0603" value="2.2k" x="125.984" y="84.074" smashed="yes">
 <attribute name="NAME" x="125.984" y="84.836" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-07857" x="125.984" y="84.074" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="125.984" y="83.312" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<attribute name="PROD_ID" value="RES-08272" x="125.984" y="84.074" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="2.2k" x="125.984" y="83.312" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="J69" library="SparkFun-Connectors" package="1X04_NO_SILK" value="PTH" x="112.522" y="78.994" smashed="yes">
 <attribute name="NAME" x="111.252" y="80.391" size="0.6096" layer="25" font="vector" ratio="20"/>
@@ -7219,15 +7226,15 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="PROD_ID" value="CONN-13694" x="134.62" y="90.424" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="131.318" y="92.075" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
-<element name="R70" library="SparkFun-Resistors" package="0603" value="4.7k" x="151.892" y="85.852" smashed="yes">
+<element name="R70" library="SparkFun-Resistors" package="0603" value="2.2k" x="151.892" y="85.852" smashed="yes">
 <attribute name="NAME" x="151.892" y="86.614" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-07857" x="151.892" y="85.852" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="151.892" y="85.09" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<attribute name="PROD_ID" value="RES-08272" x="151.892" y="85.852" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="2.2k" x="151.892" y="85.09" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="R71" library="SparkFun-Resistors" package="0603" value="4.7k" x="151.892" y="84.074" smashed="yes">
+<element name="R71" library="SparkFun-Resistors" package="0603" value="2.2k" x="151.892" y="84.074" smashed="yes">
 <attribute name="NAME" x="151.892" y="84.836" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-07857" x="151.892" y="84.074" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="151.892" y="83.312" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<attribute name="PROD_ID" value="RES-08272" x="151.892" y="84.074" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="2.2k" x="151.892" y="83.312" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="J72" library="SparkFun-Connectors" package="1X04_NO_SILK" value="PTH" x="138.43" y="78.994" smashed="yes">
 <attribute name="NAME" x="137.16" y="80.391" size="0.6096" layer="25" font="vector" ratio="20"/>

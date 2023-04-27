@@ -22124,6 +22124,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="-3.25" y="2.1"/>
 <vertex x="-4.75" y="2.1"/>
 </polygon>
+<polygon width="0.01" layer="29">
+<vertex x="-3.54" y="3"/>
+<vertex x="-3.15" y="2.61"/>
+<vertex x="-3.15" y="2"/>
+<vertex x="-4.85" y="2"/>
+<vertex x="-4.85" y="3"/>
+</polygon>
 </package>
 </packages>
 <symbols>
@@ -22607,6 +22614,23 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-0.9262" y1="-0.4262" x2="0.9262" y2="-0.4262" width="0.05" layer="39"/>
 <wire x1="0.9262" y1="-0.4262" x2="0.9262" y2="0.4262" width="0.05" layer="39"/>
 </package>
+<package name="0402">
+<description>&lt;p&gt;&lt;b&gt;Generic 1005 (0402) package&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
+<wire x1="-0.2704" y1="0.2286" x2="0.2704" y2="0.2286" width="0.1524" layer="51"/>
+<wire x1="0.2704" y1="-0.2286" x2="-0.2704" y2="-0.2286" width="0.1524" layer="51"/>
+<wire x1="-1.2" y1="0.65" x2="1.2" y2="0.65" width="0.0508" layer="39"/>
+<wire x1="1.2" y1="0.65" x2="1.2" y2="-0.65" width="0.0508" layer="39"/>
+<wire x1="1.2" y1="-0.65" x2="-1.2" y2="-0.65" width="0.0508" layer="39"/>
+<wire x1="-1.2" y1="-0.65" x2="-1.2" y2="0.65" width="0.0508" layer="39"/>
+<smd name="1" x="-0.58" y="0" dx="0.85" dy="0.9" layer="1"/>
+<smd name="2" x="0.58" y="0" dx="0.85" dy="0.9" layer="1"/>
+<text x="0" y="0.762" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.762" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.3048" layer="51"/>
+<rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.3048" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
+</package>
 </packages>
 <symbols>
 <symbol name="RESISTOR">
@@ -22626,6 +22650,51 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </symbol>
 </symbols>
 <devicesets>
+<deviceset name="2.2KOHM" prefix="R">
+<description>&lt;h3&gt;2.2kΩ resistor&lt;/h3&gt;
+&lt;p&gt;A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-0603-1/10W-1%" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-08272"/>
+<attribute name="VALUE" value="2.2k"/>
+</technology>
+</technologies>
+</device>
+<device name="-0402-1/16W-1%" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-14341" constant="no"/>
+<attribute name="VALUE" value="2.2K" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-0402T-1/16W-1%" package="0402-TIGHT">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-14341" constant="no"/>
+<attribute name="VALUE" value="2.2k" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 <deviceset name="4.7KOHM" prefix="R">
 <description>&lt;h3&gt;4.7kΩ resistor&lt;/h3&gt;
 &lt;p&gt;A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia&lt;/p&gt;</description>
@@ -23614,8 +23683,8 @@ Standard 0402 sized pads with cathode pin indicator.
 </classes>
 <parts>
 <part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-LETTER" device="">
-<attribute name="BASEDON" value="Original Design by: N. Seidle"/>
-<attribute name="DESIGNER" value="Alex Brudner"/>
+<attribute name="BASEDON" value="Revision By: Alex Brudner"/>
+<attribute name="DESIGNER" value="N. Seidle"/>
 <attribute name="REV" value="v10"/>
 </part>
 <part name="FD1" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
@@ -23633,8 +23702,8 @@ Standard 0402 sized pads with cathode pin indicator.
 <part name="GND2" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY1" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="SUPPLY2" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
-<part name="R1" library="SparkFun-Resistors" deviceset="4.7KOHM" device="-0603-1/10W-1%" value="4.7k"/>
-<part name="R2" library="SparkFun-Resistors" deviceset="4.7KOHM" device="-0603-1/10W-1%" value="4.7k"/>
+<part name="R1" library="SparkFun-Resistors" deviceset="2.2KOHM" device="-0603-1/10W-1%" value="2.2k"/>
+<part name="R2" library="SparkFun-Resistors" deviceset="2.2KOHM" device="-0603-1/10W-1%" value="2.2k"/>
 <part name="J3" library="SparkFun-Connectors" deviceset="I2C_STANDARD" device="_NO_SILK" value="PTH"/>
 <part name="GND3" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY3" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
@@ -23670,7 +23739,7 @@ disable LED</text>
 <wire x1="172.72" y1="185.42" x2="172.72" y2="68.58" width="0.2032" layer="97" style="longdash"/>
 <wire x1="58.42" y1="68.58" x2="58.42" y2="0" width="0.2032" layer="97" style="longdash"/>
 <text x="30.48" y="55.88" size="3.048" layer="94" font="vector" align="bottom-center">Part Number</text>
-<text x="116.84" y="165.1" size="1.778" layer="97" align="bottom-center">Input: 2.4V-5.5V
+<text x="116.84" y="165.1" size="1.778" layer="97" font="vector" align="bottom-center">Input: 2.4V-5.5V
 This board runs 3.3V only.</text>
 <text x="116.84" y="101.6" size="1.778" layer="97" font="vector" align="bottom-center">7-bit unshifted address: 0x62</text>
 </plain>
@@ -23693,8 +23762,8 @@ This board runs 3.3V only.</text>
 <instance part="H3" gate="G$1" x="243.84" y="25.4" smashed="yes"/>
 <instance part="H4" gate="G$1" x="243.84" y="27.94" smashed="yes"/>
 <instance part="U1" gate="U1" x="111.76" y="124.46" smashed="yes">
-<attribute name="NAME" x="104.14" y="130.048" size="1.778" layer="95"/>
-<attribute name="VALUE" x="104.14" y="117.094" size="1.778" layer="96"/>
+<attribute name="NAME" x="104.14" y="130.048" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="104.14" y="117.094" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="J1" gate="G$1" x="218.44" y="139.7" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="214.63" y="132.08" size="1.778" layer="96" font="vector" rot="MR180" align="top-left"/>

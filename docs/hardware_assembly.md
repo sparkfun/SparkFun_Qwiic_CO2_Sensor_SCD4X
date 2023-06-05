@@ -4,7 +4,10 @@ Now that we're familiar with the SCD4X sensors and these breakouts, it's time to
 
 SparkFun's Qwiic system makes assembling a circuit a breeze. Simply plug the breakout into your chosen microcontroller with a Qwiic cable. After assembling your circuit, it should look similar to the photo below:
 
-
+<figure markdown>
+[![SparkFun SCD40 plugged into the RedBoard Qwiic](./assets/images/Qwiic_SCD4x-Assembly.jpg){ width="400"}](./assets/images/Qwiic_SCD4x-Assembly.jpg "Click to enlarge")
+<figcaption markdown>SparkFun CO<sub>2</sub> Humidity and Temperature Sensor - SCD40 (Qwiic) plugged into the RedBoard Qwiic</figcaption>
+</figure>
 
 Reminder, for ideal results, make sure to fully calibrate the SCD4X by taking continuous measurements for one hour every day for seven days.
 

@@ -1,39 +1,39 @@
-The SparkFun CO<sub>2</sub>, Humidity and Temperature Sensor - SCD4X (Qwiic) breakouts feature the SCD40 and SCD41 CO<sub>2</sub> sensors from Sensirion<sup>&trade;</sup>. The SCD4X sensors use Sensirion&apos;s PASens<sup>&trade;</sup> photoacoustic measurement system that combines the use of narrow-band IR light and a microphone inside the sensing package that results in a high-quality sensor that measures CO<sub>2</sub> concentrations from 0 to 40,000ppm. The sensors also have an integrated humidity and temperature sensor to provide environmental conditions to improve accuracy. The SCD40 has best accuracy from 400 to 2,000ppm and the SCD41 has best accuracy from 400 to 5,000ppm.
+
+
+The SparkFun CO<sub>2</sub>, Humidity and Temperature Sensor - SCD4X (Qwiic) breakouts feature the SCD40 and SCD41 CO<sub>2</sub> sensors from Sensirion<sup>&trade;</sup>. The SCD4X sensors use Sensirion&apos;s PASens<sup>&trade;</sup> photoacoustic measurement system that combines the use of narrow-band IR light and a microphone inside the sensing package that results in a high-quality sensor that measures CO<sub>2</sub> concentrations from 0 to 40,000ppm. The sensors also have an integrated humidity and temperature sensor to provide environmental conditions to improve accuracy. The SCD40 has the best accuracy from 400 to 2,000ppm and the SCD41 has the best accuracy from 400 to 5,000ppm.
 
 These sensors also feature automatic self-calibration routines to automatically adjust to their sensing environments over seven day calibration period. For best results, Sensirion recommends taking continuous readings for at least one hour a day of 'fresh air' for the calibration period to complete.
 
 <section class="grid cards col-2"markdown>
 
--	<a href="https://www.sparkfun.com/products/">
-	**SparkFun CO<sub>2</sub> Humidity and Temperature Sensor - SCD40 (Qwiic)**<br>
-	**SKU:** SEN-##### 
-
-	---
-
-	<figure markdown>
-	![Product image]()
+-	<figure markdown>
+	![Product image](https://cdn.sparkfun.com//assets/parts/2/2/4/2/7/22395-_SEN_Qwiic_SCD40-_01.jpg)
 	</figure>
 	</a>
+
+    <a href="https://www.sparkfun.com/products/22395">
+	**SparkFun CO<sub>2</sub> Humidity and Temperature Sensor - SCD40 (Qwiic)**<br>
+	**SKU:** SEN-22395 
 
 	<center>
     [Purchase from SparkFun :fontawesome-solid-cart-plus:](https://www.sparkfun.com/products/21834){ .md-button .md-button--primary }
     </center>
 
--	<a href="https://www.sparkfun.com/products/21338">
-	**SparkFun CO<sub>2</sub> Humidity and Temperature Sensor - SCD41 (Qwiic)**<br>
-	**SKU:** SEN
-
-	---
-
-	<figure markdown>
-	![Product image]()
+-	<figure markdown>
+	![Product image](https://cdn.sparkfun.com//assets/parts/2/2/4/2/8/22396-_SEN_Qwiic_SCD41-_01.jpg)
 	</figure></a>
+
+    <a href="https://www.sparkfun.com/products/22396">
+	**SparkFun CO<sub>2</sub> Humidity and Temperature Sensor - SCD41 (Qwiic)**<br>
+	**SKU:** SEN-22396
 
 	<center>
 	[Purchase from SparkFun :fontawesome-solid-cart-plus:](https://www.sparkfun.com/products/21834){ .md-button .md-button--primary }
 	</center>
 
 </section>
+
+In this guide we'll go over the details of the SCD4x sensors and other hardware present on these breakout boards, how to assemble it into a Qwiic circuit and how to use it with the SparkFun SCD4x Arduino Library.
 
 ## Required Materials
 

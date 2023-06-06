@@ -23,7 +23,6 @@ theme:
   font:
     text: Roboto
     code: Roboto Mono
-
   # Features to Include (ref. theme documentation)
   features:
     # Enable copy button on code blocks
@@ -113,10 +112,13 @@ theme:
       hot: material/fire-alert
       # Permalink icon
       link: octicons/link-16
-
-# Adds overrides for stylesheets, html, etc.
-custom_dir: overrides
-
+      
+      
+  # Adds overrides for stylesheets, html, etc.
+  custom_dir: overrides
+  
+  
+  
 # Included MkDocs plugins
 # Add the installation of any new plugins to the ./github/workflows/mkdocs.yml file also
 plugins:

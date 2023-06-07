@@ -6,7 +6,7 @@ The SCD4x CO<sub>2</sub> sensors use Sensirion's PASense<sup>&trade;</sup>, a ph
 
 <figure markdown>
 [![Highlighting the SCD4x sensor and version indicator](./assets/images/Qwiic_SCD4x-Sensor.jpg){ width="400"}](./assets/images/Qwiic_SCD4x-Sensor.jpg "Click to enlarge")
-<figcaption markdown>Note the PCB design is shared between the SCD40 and SCD41 and the version is indicated by the solder pad above the sensor.</figcaption>
+<figcaption markdown>Note: The PCB design is shared between the SCD40 and SCD41 and the version is indicated by the solder pad above the sensor.</figcaption>
 </figure>
 
 Now you may be curious as to just what photoacoustic measuring actually is. Photoacoustic measuring uses light (photo) and sound/vibrations (acoustic) in tandem to measure the the photoacoustic effect when energy is absorbed by particles (in the case of these sensors, CO<sub>2</sub> molecules). The SCD4X has an IR emitter with a filter to shine a specific IR light into the sensing area. CO<sub>2</sub> molecules inside the sensing area absorb energy from the emitted IR light and vibrate. The microphone inside the sensing area picks up this acoustic vibration and then this data is processed to report CO<sub>2</sub> concentration. This is just a quick and basic explanation of the photoacoustic process used in these sensors. For detailed information on Sensirion's PASens and CMOSens technology, refer to their [technology page](https://sensirion.com/products/technology).
@@ -30,20 +30,21 @@ Both sensors have identical operating characteristics outside of their ideal mea
         <td>0</td>
         <td>-</td>
         <td>40,000</td>
-        <td>-</td>
+        <td></td>
     </tr>
     <tr>
         <td rowspan="2" style="vertical align middle">CO<sub>2</sub> Measurement Accuracy</td>
         <td rowspan="2" style="vertical align middle">ppm</td>
+        <td>-</td>
         <td>&plusmn;(50 + 5%)</td>
+        <td>-</td>
         <td>SCD40 accuracy</td>
     </tr>
     <tr>
+        <td>-</td>
         <td>&plusmn;(40 + 5%)</td>
+        <td>-</td>
         <td>SCD41 accuracy</td>
-    </tr>
-    <tr>
-        <td></td>
     </tr>
     <tr>
         <td>Humidity Range</td>
@@ -51,6 +52,7 @@ Both sensors have identical operating characteristics outside of their ideal mea
         <td>0</td>
         <td>-</td>
         <td>100</td>
+        <td></td>
     </tr>
     <tr>
         <td rowspan="2" style="vertical align middle">Humidity Accuracy</td>
@@ -72,7 +74,7 @@ Both sensors have identical operating characteristics outside of their ideal mea
         <td>-10</td>
         <td>-</td>
         <td>60</td>
-        <td>-</td>
+        <td></td>
     </tr>
     <tr>
         <td rowspan="2" style="vertical align middle">Temperature Accuracy</td>

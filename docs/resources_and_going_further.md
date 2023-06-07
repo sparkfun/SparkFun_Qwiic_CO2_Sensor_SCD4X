@@ -1,4 +1,4 @@
-That's a wrap for this Hookup Guide. For more information about the SCD4X and these breakouts, check out the links below:
+For more information about the SCD4X and these breakouts, check out the links below:
 
 * Schematics:
     * [SCD40](./assets/board_files/SparkFun_Qwiic_CO2_Sensor_SCD40.pdf)

@@ -11,7 +11,11 @@ The first example in the library demonstrates how to initialize the SCD4X on the
 	--8<-- "https://raw.githubusercontent.com/sparkfun/SparkFun_SCD4x_Arduino_Library/main/examples/Example1_BasicReadings/Example1_BasicReadings.ino"
 	```
 
-Select your Board/Port and click the "Upload" button. Once the code finishes uploading, open up a [Serial Monitor](https://learn.sparkfun.com/tutorials/terminal-basics) and check the output. You should see CO<sub>2</sub>, temperature and humidity data print out every 5 seconds.
+Select your Board/Port and click the "Upload" button. Once the code finishes uploading, open up a [Serial Monitor](https://learn.sparkfun.com/tutorials/terminal-basics) and check the output. You should see CO<sub>2</sub>, temperature and humidity data print out every 5 seconds:
+
+<figure markdown>
+[![Highlighting the power LED](./assets/images/SCD4x_Example_1_Output.jpg){ width="600"}](./assets/images/SCD4x_Example_1_Output.jpg "Click to enlarge")
+</figure>
 
 ## Example 2 - Low Power Readings
 

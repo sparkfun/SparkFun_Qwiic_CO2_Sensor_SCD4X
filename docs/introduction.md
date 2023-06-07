@@ -6,29 +6,36 @@ These sensors also feature automatic self-calibration routines to automatically 
 
 <section class="grid cards col-2"markdown>
 
--	<figure markdown>
+-	<a href="https://www.sparkfun.com/products/22395">
+    <figure markdown>
 	![Product image](https://cdn.sparkfun.com//assets/parts/2/2/4/2/7/22395-_SEN_Qwiic_SCD40-_01.jpg)
 	</figure>
-	</a>
+    </a>
+
+    ---
 
     <a href="https://www.sparkfun.com/products/22395">
 	**SparkFun CO<sub>2</sub> Humidity and Temperature Sensor - SCD40 (Qwiic)**<br>
 	**SKU:** SEN-22395 
-
+    </a>
 	<center>
-    [Purchase from SparkFun :fontawesome-solid-cart-plus:](https://www.sparkfun.com/products/21834){ .md-button .md-button--primary }
+    [Purchase from SparkFun :fontawesome-solid-cart-plus:](https://www.sparkfun.com/products/22395){ .md-button .md-button--primary }
     </center>
-
--	<figure markdown>
+    
+-	<a href="https://www.sparkfun.com/products/22396">
+    <figure markdown>
 	![Product image](https://cdn.sparkfun.com//assets/parts/2/2/4/2/8/22396-_SEN_Qwiic_SCD41-_01.jpg)
-	</figure></a>
+	</figure>
+    </a>
+
+    ---
 
     <a href="https://www.sparkfun.com/products/22396">
-	**SparkFun CO<sub>2</sub> Humidity and Temperature Sensor - SCD41 (Qwiic)**<br>
+    **SparkFun CO<sub>2</sub> Humidity and Temperature Sensor - SCD41 (Qwiic)**<br>
 	**SKU:** SEN-22396
-
+    </a>
 	<center>
-	[Purchase from SparkFun :fontawesome-solid-cart-plus:](https://www.sparkfun.com/products/21834){ .md-button .md-button--primary }
+	[Purchase from SparkFun :fontawesome-solid-cart-plus:](https://www.sparkfun.com/products/22396){ .md-button .md-button--primary }
 	</center>
 
 </section>
@@ -96,7 +103,7 @@ If your chosen microcontroller is not already Qwiic-enabled, you can add that fu
 -   <a href="https://www.sparkfun.com/products/15081">
 
     <figure markdown>
-    ![SparkFun Qwiic Cable Kit)](https://cdn.sparkfun.com//assets/parts/1/3/4/3/1/15081-Qwiic_Cable_Kit_-01.jpg)
+    ![SparkFun Qwiic Cable Kit](https://cdn.sparkfun.com//assets/parts/1/3/4/3/1/15081-_01.jpg)
     </figure>
     </a>
     ---
@@ -256,7 +263,7 @@ We designed this board for integration into SparkFun's Qwiic connect system.  Cl
 <table>
   <tr>
    <td>
-   <div style="text-align: center"><a href="https://www.sparkfun.com/qwiic"><img src="assets/images/Qwiic-registered-updated.png" alt="Qwiic Connect System" title="Click to learn more about the Qwiic Connect System!"></a></div>
+   <div style="text-align: center"><a href="https://www.sparkfun.com/qwiic"><img src="../assets/images/Qwiic-registered-updated.png" alt="Qwiic Connect System" title="Click to learn more about the Qwiic Connect System!"></a></div>
    </td>
   </tr>
   <tr>
@@ -268,21 +275,20 @@ We designed this board for integration into SparkFun's Qwiic connect system.  Cl
 Before getting started with this Hookup Guide, you may want to read through the tutorials below if you are not familiar with the concepts covered in them or want a refresher. If you are using either of the Qwiic Shields linked above, we recommend reading through their respective Hookup Guides before continuing with this tutorial:
 
 <div class="grid cards hide col-4" markdown align="center">
+
 -   <a href="https://learn.sparkfun.com/tutorials/8">
     <figure markdown>
     ![Serial Communication](https://cdn.sparkfun.com/c/264-148/assets/7/d/f/9/9/50d24be7ce395f1f6c000000.jpg)
     </figure>
     </a>
-    ---
     <a href="https://learn.sparkfun.com/tutorials/8">**Serial Communication**
     </a>
 
 -   <a href="https://learn.sparkfun.com/tutorials/82">
     <figure markdown>
-    ![I2C](https://cdn.sparkfun.com/c/264-148/assets/7/d/f/9/9/50d24be7ce395f1f6c000000.jpg)
+    ![I2C](https://cdn.sparkfun.com/c/178-100/assets/learn_tutorials/8/2/I2C-Block-Diagram.jpg)
     </figure>
     </a>
-    ---
     <a href="https://learn.sparkfun.com/tutorials/82">**I2C**
     </a>
 
@@ -291,8 +297,31 @@ Before getting started with this Hookup Guide, you may want to read through the 
     ![Logic Levels](https://cdn.sparkfun.com/c/264-148/assets/learn_tutorials/6/2/Input_Output_Logic_Level_Tolerances_tutorial_tile.png)
     </figure>
     </a>
-    ---
     <a href="https://learn.sparkfun.com/tutorials/62">**Logic Levels**
+    </a>
+
+-   <a href="https://learn.sparkfun.com/tutorials/61">
+    <figure markdown>
+    ![Installing Arduino IDE](https://cdn.sparkfun.com/c/178-100/assets/learn_tutorials/6/1/arduinoThumb.jpg)
+    </figure>
+    </a>
+    <a href="https://learn.sparkfun.com/tutorials/61">**Installing Arduino IDE**
+    </a>
+
+-   <a href="https://learn.sparkfun.com/tutorials/15">
+    <figure markdown>
+    ![Installing an Arduino Library](https://cdn.sparkfun.com/c/178-100/assets/b/e/4/b/2/50f04b99ce395fd95e000001.jpg)
+    </figure>
+    </a>
+    <a href="https://learn.sparkfun.com/tutorials/15">**Installing an Arduino Library**
+    </a>
+
+-   <a href="https://learn.sparkfun.com/tutorials/112">
+    <figure markdown>
+    ![Serial Terminal Basics](https://cdn.sparkfun.com/c/178-100/assets/learn_tutorials/1/1/2/terminalThumb.jpg)
+    </figure>
+    </a>
+    <a href="https://learn.sparkfun.com/tutorials/112">**Serial Terminal Basics**
     </a>
 
 -   <a href="https://learn.sparkfun.com/tutorials/664">
@@ -300,7 +329,6 @@ Before getting started with this Hookup Guide, you may want to read through the 
     ![How to Work with Jumper Pads and PCB Traces](https://cdn.sparkfun.com/c/264-148/assets/learn_tutorials/6/6/4/PCB_TraceCutLumenati.jpg)
     </figure>
     </a>
-    ---
     <a href="https://learn.sparkfun.com/tutorials/664">**How to Work with Jumper Pads and PCB Traces**
     </a>
 
@@ -309,7 +337,6 @@ Before getting started with this Hookup Guide, you may want to read through the 
     ![Qwiic Shield for Arduino & Photon Hookup Guide](https://cdn.sparkfun.com/c/178-100/assets/learn_tutorials/6/8/4/Qwic_Shield_Hookup_Guide-05.jpg)
     </figure>
     </a>
-    ---
     <a href="https://learn.sparkfun.com/tutorials/684">**Qwiic Shield for Arduino & Photon Hookup Guide**
     </a>
 
@@ -318,7 +345,6 @@ Before getting started with this Hookup Guide, you may want to read through the 
     ![Qwiic Shield for Thing Plus Hookup Guide](https://cdn.sparkfun.com/c/178-100/assets/learn_tutorials/1/1/0/7/16138-SparkFun_Qwiic_Shield_for_Thing_Plus-01_Thumb.jpg)
     </figure>
     </a>
-    ---
     <a href="https://learn.sparkfun.com/tutorials/1107">**Qwiic Shield for Thing Plus Hookup Guide**
     </a>
 </div>

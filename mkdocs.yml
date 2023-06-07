@@ -124,6 +124,9 @@ theme:
 plugins:
   - search
   - typeset
+  - redirects:
+      redirect_maps:
+          'index.md': 'introduction.md'
   # Add revision date
   - git-revision-date-localized:
       enable_creation_date: true

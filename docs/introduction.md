@@ -1,3 +1,6 @@
+---
+icon: material/book-open-page-variant
+---
 
 
 The SparkFun CO<sub>2</sub>, Humidity and Temperature Sensor - SCD4X (Qwiic) breakouts feature the SCD40 and SCD41 CO<sub>2</sub> sensors from Sensirion<sup>&trade;</sup>. The SCD4X sensors use Sensirion&apos;s PASens<sup>&trade;</sup> photoacoustic measurement system that combines the use of narrow-band IR light and a microphone inside the sensing package that results in a high-quality sensor that measures CO<sub>2</sub> concentrations from 0 to 40,000ppm. The sensors also have an integrated humidity and temperature sensor to provide environmental conditions to improve accuracy. The SCD40 has the best accuracy from 400 to 2,000ppm and the SCD41 has the best accuracy from 400 to 5,000ppm.

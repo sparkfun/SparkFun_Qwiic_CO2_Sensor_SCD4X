@@ -1,3 +1,7 @@
+---
+icon: material/cog
+---
+
 Let's take a closer look at the SCD4X sensors and hardware on these sensor breakouts.
 
 ## SCD40 and SCD41 CO<sub>2</sub> Sensors

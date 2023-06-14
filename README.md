@@ -42,8 +42,8 @@ Product Versions
 
 Version History
 ---------------
-* [SCD40 v01](https://www.sparkfun.com/products/22395) - Initial SparkFun release (SCD40)
-* [SCD41 v01](https://www.sparkfun.com/products/22396) - Initial SparkFun release (SCD41)
+* [SCD40 v10](https://www.sparkfun.com/products/22395) - Initial SparkFun release (SCD40)
+* [SCD41 v10](https://www.sparkfun.com/products/22396) - Initial SparkFun release (SCD41)
 * [SparkX SCD40 v01](https://www.sparkfun.com/products/18365) - Initial SparkX release (SCD40)
 * [SparkX SCD41 v01](https://www.sparkfun.com/products/18366) - Initial SparkX release (SCD41)
 

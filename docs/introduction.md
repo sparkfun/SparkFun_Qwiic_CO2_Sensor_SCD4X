@@ -40,8 +40,16 @@ These sensors also feature automatic self-calibration routines to automatically 
 	<center>
 	[Purchase from SparkFun :fontawesome-solid-cart-plus:](https://www.sparkfun.com/products/22396){ .md-button .md-button--primary }
 	</center>
-
+    
 </section>
+
+
+<div style="text-align: center;">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/sJqToow_iAg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+    </iframe>
+</div>
+
+
 
 In this guide we'll go over the details of the SCD4x sensors and other hardware present on these breakout boards, how to assemble it into a Qwiic circuit and how to use it with the SparkFun SCD4x Arduino Library.
 
